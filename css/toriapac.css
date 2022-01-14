@@ -1,0 +1,389 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    list-style: 1.6em;
+    font-size: 16px;
+    margin-bottom: 500px;
+}
+
+.clr{
+    clear: both;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#intro ul{
+    text-decoration: none;
+    display: inline;
+}
+
+#intro li{
+    text-decoration: none;
+    display: inline;
+    padding-right: 10px;
+}
+
+.button-top{
+    padding: 10px 20px;
+    background-color: black;
+    color: gold;
+    border: gold 1px solid;
+}
+
+.button-top a{
+    text-decoration: none;
+}
+
+.button-top:hover{
+    background-color: gold;
+    color: white;
+    border: gold 1px solid;
+    text-decoration: none;
+}
+
+.list-inline{
+    padding-top: 20px;
+}
+
+.list-inline-item a{
+    text-decoration: none;
+    color: white;
+    padding-right: 50px;
+    text-transform: uppercase;
+}
+
+.list-inline-item a:hover{
+    color: gold;
+}
+
+.button{
+    background-color: gold;
+    color: black;
+    padding: 20px 30px;
+}
+
+.button:hover{
+    background-color: black;
+    color: gold;
+    border: gold 1px solid;
+}
+
+#item a{
+    text-decoration: none;
+    margin-left: 200px;
+}
+
+#showcase{
+    background-image: url(../images/2nd\ cake.png);
+    min-height: 600px;
+    background-position: center right;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+#showcase h1{
+    padding-top: 250px;
+    padding-left: 200px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 70px;
+    color: black;
+}
+
+#showcase h2{
+    padding-left: 200px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 70px;
+    line-height: 0.5em;
+    color: black;
+    margin-bottom: 100px;
+}
+
+#phase-2{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.0em;
+    font-size: 30px;
+    padding: 0%;
+    margin: 0%;
+}
+
+#phase-2 p{
+    color: gold;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+
+.video{
+    max-width: 100%;
+}
+
+#main{
+    float: left;
+    width: 60%;
+    padding: 0 70px;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+#main h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: gold;
+}
+
+#sidebar{
+    width: 40%;
+    float: right;
+    box-sizing: border-box;
+}
+
+#block{
+    float: left;
+    width: 33.3%;
+    box-sizing: border-box;
+    padding: 70px 40px;
+}
+
+#block h4{
+    line-height:none;
+    padding: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+#block p{
+    color: gold;
+    padding-top: 0%;
+    line-height: 0%;
+}
+
+.block {
+    float: left;
+    width: 33.3%;
+    box-sizing: border-box;
+    border-top: white 1px solid;
+    border-bottom: white 1px solid;
+    padding: 40px 30px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.block h2{
+    color: gold;
+}
+
+.block p{
+    text-align: left;
+    line-height: 2.0em;
+}
+
+#sweet {
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;   
+    font-size: 25px;
+}
+#blog{
+    margin-bottom: 100px;
+    margin-top: 30px;
+}
+
+#blog h3{
+    display: inline;
+    font-size: 35px;
+    font-weight: lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 750px;
+}
+
+.contain{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 100px;
+}
+
+#cry {
+    padding-left: 50px;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+
+#cry-1 h3 {
+    color: gold;
+    font-weight: lighter;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+#cry-1 p {
+    line-height: 2em;
+    padding-bottom: 70px;
+}
+
+#cry-1 a {
+    color: gold;
+    text-decoration: none;
+}
+
+#cry-1 {
+    border-top: 1px white solid;
+    border-right: 1px white solid;
+    border-bottom: 1px white solid;
+    
+}
+
+/* .sex{
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+#sex-1{
+    border: white 1px solid;
+    padding: 30px;   
+    margin-left: 0%;
+    line-height: 2.0em;
+}
+
+#sex-1 h3{
+    color: gold;
+    font-size: 20px;
+}
+
+#sex-1 h4{
+    font-size: 13px;
+    color: gold;
+    text-decoration: underline;
+}
+
+#sex-1 p{
+    font-size: 15px;
+} */
+
+.follow {
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.follow h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+.follow a{
+    text-decoration: none;
+}
+
+#button {
+    background-color:black;
+    color: gold;
+    padding: 17px 33px;
+    border: gold 1px solid;
+}
+
+#cup{
+    float: left;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+    margin-left: 185px;
+}
+
+#cup-1{
+    padding-right: 20px;
+}
+
+#cup-2{
+    padding-right: 20px;
+}
+
+#cup-3{
+    padding-right: 20px;
+}
+
+.footer-header{
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 6.0em;
+    text-transform: uppercase;
+}
+
+.footer-header ul{
+    display: inline;
+    text-align: right;
+}
+
+.footer-header li{
+    display: inline;
+    text-align: right;
+}
+
+.footer-header p{
+    display: inline;
+    font-size: 30px;
+    margin-right: 450px;
+    color: gold;
+}
+
+
+.footer-header a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 30px;
+}
+
+.footer-header a:hover{
+    color: gold;
+}
+
+#end{
+    line-height: 0.5em;
+    padding-left: 120px;
+}
+
+#end h3 {
+    font-weight: lighter;
+}
+
+#end h3{
+    color: gold;
+    padding-bottom: 10px;
+}
+
+#end-2 h3{
+    color: gold;
+}
+
+#end-1 p{
+    margin-bottom: 50px;
+}
+
+#end-1 a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border: white 1px solid;
+}
+
+#end-2 {
+    text-align: left;
+    padding-left: 40px;
+}
+
+#end-2 h3{
+    font-weight: lighter;
+}
+
